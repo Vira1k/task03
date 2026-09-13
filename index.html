@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Tasks</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <div class="todo">
+
+        <h1>My Tasks</h1>
+
+        <div class="input">
+            <input id="taskInput" placeholder="Add a new task...">
+            <button id="addBtn">+</button>
+        </div>
+
+        <div id="taskList"></div>
+
+        <footer>
+            <span>My Tasks</span>
+            <b id="count">0/0 completed</b>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
