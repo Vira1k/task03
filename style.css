@@ -1,4 +1,7 @@
-*{margin:0;padding:0;box-sizing:border-box}
+*{margin:0;
+    padding:0;
+    box-sizing:border-box
+}
 
 body{
     min-height:100vh;
@@ -15,11 +18,13 @@ body{
     max-width:100%;
     padding:25px;
     border-radius:18px;
-    background:#ffffff26;
+    background:#ede9e926;
     border:1px solid #ffffff40;
 }
 
-h1{margin-bottom:20px;font-size:28px}
+h1{margin-bottom:20px;
+    font-size:28px
+}
 
 .input{
     display:flex;
@@ -37,7 +42,9 @@ h1{margin-bottom:20px;font-size:28px}
     color:#fff;
 }
 
-.input input::placeholder{color:#fff;opacity:.7}
+.input input::placeholder{
+    color:#fff;opacity:.7
+}
 
 .input button{
     width:45px;
